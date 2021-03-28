@@ -7,5 +7,3 @@ for(var i = 0; i < filenames.length; i++){
 }
 
 fs.writeFileSync('result.txt', filenames.join('\n'));
-
-//console.log(filenames);
